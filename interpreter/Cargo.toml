@@ -1,0 +1,15 @@
+[package]
+name = "interpreter"
+version = "0.1.0"
+authors = ["Olivier de Schaetzen <olivier4@telenet.be>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "*"
+js-sys = "*"
+goblin = "*"
+
+[lib]
+crate-type = ["cdylib"]
